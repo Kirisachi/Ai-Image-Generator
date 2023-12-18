@@ -43,6 +43,7 @@ In the `script.js` file, you will find a section for API configuration. Replace 
 ```javascript
 // Replace 'YOUR_OPENAI_API_KEY' with your actual API key
 const OPENAI_API_KEY = " Replace with your api key";
+```
 
 ##Dependencies
 This project primarily relies on HTML, CSS, and vanilla JavaScript. However, an active internet connection is required to use the OpenAI API.
