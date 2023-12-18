@@ -1,15 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Recipes</title>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AI Image generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="js/script.js" defer></script>
     </head>
-  <body>
-    <h1><centre>Recipes</centre></h1>
-    <a href="recipes/{recipes}">{Recipe Title}</a>
-    <a href="recipes/friedrice.html">Easy Fried Rice</a>
-    <a href="recipes/spaghetti.html">Spaghetti Aglio e Olio
-  </body>
+    <body>
+        <section class="image-generator">
+            <div class="content">
+                <h1>AI Image Geneator Tool</h1>
+                <p>Converts your text into an image within seconds</p>
+                <form action="#" class="generate-form">
+                    <input type="text" class="prompt-input" placeholder="Describe to me what you want to see" required>
+                    <div class="controls">
+                        <select class="img-quanlity">
+                             <option value="1">1 Image</option>
+                             <option value="2">2 Images</option>
+                             <option value="3">3 Images</option>
+                             <option value="4" selected>4 Images</option>
+                        </select>
+                        <button type="submit" class="class generate-btn">Generate</button>
+                    </div>
+            </div>
+        </section>
+        <section class="image-gallery">
+            <div class="img-card">
+                <img src="images/img-1.jpg" alt="image">
+                <a href="#" class="download-btn">
+                <img src="images/download.svg" alt="download icon">
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="images/img-2.jpg" alt="images">
+                <a href="#" class="download-btn">
+                    <img src="images/download.svg" alt="download icon">
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="images/img-3.jpg" alt="images">
+                <a href="#" class="download-btn">
+                    <img src="images/download.svg" alt="download icon">
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="images/img-4.jpg" alt="images">
+                <a href="#" class="download-btn">
+                    <img src="images/download.svg" alt="download icon">
+                </a>
+            </div>
+        </section>
+    </body>
 </html>
