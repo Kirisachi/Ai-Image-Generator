@@ -1,5 +1,7 @@
 # AI Image Generator
 
+https://kirisachi.github.io/Ai-Image-Generator/
+
 ## Overview
 
 This project is an AI Image Generator that leverages HTML, CSS, and vanilla JavaScript to create a user-friendly interface for generating images using the OpenAI API. The application allows users to explore the capabilities of the OpenAI API and generate unique and creative images based on various input parameters.
